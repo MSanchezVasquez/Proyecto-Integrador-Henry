@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";

@@ -1,13 +1,16 @@
-import SearchBar from "./Searchbar";
+/* eslint-disable react/prop-types */
+import SearchBar from "../Searchbar";
 import { Link } from "react-router-dom";
+import "./Nav";
+import styled from "styled-components";
 
 const NavBar = ({ onSearch }) => {
   return (
-    <div>
+    <div className="navbar-container">
       <SearchBar onSearch={onSearch} />
 
       <Link to="/about">
-        <button>About</button>
+        <button className="nav-button">About</button>
       </Link>
 
       <Link to="/home">
@@ -15,7 +18,7 @@ const NavBar = ({ onSearch }) => {
       </Link>
 
       <Link to="/favorites">
-        <button>Favorites</button>
+        <button className="nav-button">Favorites</button>
       </Link>
     </div>
   );

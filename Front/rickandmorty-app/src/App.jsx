@@ -1,6 +1,6 @@
 import "./App.css";
 import Cards from "./components/Cards/Cards";
-import NavBar from "./components/Nav";
+import NavBar from "./components/Nav/Nav";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";

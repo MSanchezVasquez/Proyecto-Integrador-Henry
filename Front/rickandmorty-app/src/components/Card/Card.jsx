@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addFav, removeFav } from "../../Redux/actions";
@@ -5,7 +6,7 @@ import { useState, useEffect } from "react";
 import style from "styled-components";
 
 const ComponenteEstilizado = style.div`
-   background-color : blue;
+   background-color : default;
 `;
 
 const Card = ({

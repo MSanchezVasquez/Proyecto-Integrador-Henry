@@ -1,7 +1,9 @@
 const About = () => {
   return (
     <div>
-      <h1>Soy el About de Maty!</h1>
+      <h1>Name: Moises Sanchez</h1>
+      <h2>Age: 22</h2>
+      <h2>Email: moisesup.25@gmail.com</h2>
     </div>
   );
 };
